@@ -1,18 +1,17 @@
 public abstract class UsuarioSistema
 
 {
-    // El unico atributo padre será un id de usuario dentro del sistema
-    private String idsys;
+    // El unico atributo padre será un id de usuario dentro del sistema. 
+    private String id;
 
     //Constructor por parámetros para UsuarioSistema. Será DNI/CIF sin letra
-    public UsuarioSistema(String idsys)
+    public UsuarioSistema(String id)
     {
-        this.idsys=idsys;        
+        this.id=id;        
     }
     //Constructor default para UsuarioSistema
     public UsuarioSistema()
     {
-        this.idsys=new String("xxxxxxxx");
+        this.id=new String("xxxxxxxx");
     }
 }
-
