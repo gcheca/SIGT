@@ -1,0 +1,22 @@
+public class Particular extends Clientes
+{
+    //Además de las heredadas. Nombre, Apellidos, NIF
+    private String nombre;
+    private String apellido;
+    private String nif;
+
+    //Contructor por parámetros de Particular
+    public Particular(String nombre, String apellido, String nif)
+    {
+        this.nombre=nombre;
+        this.apellido=apellido;
+        this.nif=nif;
+    }
+    //Constructor default de Particular
+    public Particular()
+    {
+        this.nombre="Nombre";
+        this.apellido="Apellido";
+        this.nif="xxxxxxxx";
+    }
+}
