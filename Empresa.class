@@ -1,0 +1,20 @@
+public class Empresa extends Clientes
+{
+    // Además de las heredadas. Meteremos el CIF 
+    //que será igual al Id pero sin letra y el nombre de la empresa
+    private String nombreempresa;
+    private String cif;
+    
+    //Constructor por parámetros para empresa
+    public Empresa(String nombreempresa, String cif)
+    {
+      this.nombreempresa=nombreempresa;
+      this.cif=cif;
+    }
+    //Constructor default para empresa
+    public Empresa()
+    {
+        this.nombreempresa="Nueva empresa";
+        this.cif="xxxxxxxx";       
+    }
+}
