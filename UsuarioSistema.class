@@ -2,7 +2,8 @@ public abstract class UsuarioSistema
 
 {
     // El unico atributo padre será un id de usuario dentro del sistema. 
-    private String id;
+    //Probamos protected para la herencia
+    protected String id;
 
     //Constructor por parámetros para UsuarioSistema. Será DNI/CIF sin letra
     public UsuarioSistema(String id)
