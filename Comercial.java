@@ -12,8 +12,14 @@ public class Comercial extends Empleados
         this.dpto=new String("Comercial");
     }
     
+    //Setter&Getter
+    public String getdpto()
+    {return dpto;}
+    public void setdpto(String dpto)
+    {this.dpto=new String ("Comercial");}
+    
     //toString
-    /*public String toString()
+    public String toString()
     {
         String e="Empleado: ";
         e=e.concat(this.id+", ");
@@ -21,5 +27,5 @@ public class Comercial extends Empleados
         e=e.concat(this.apellido+", ");
         e=e.concat(this.dpto+".\n");
         return e;
-    }*/
+    }
 }
