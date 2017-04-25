@@ -2,9 +2,9 @@ import java.lang.String;
 public class Particular extends Clientes
 {
     //Además de las heredadas. Nombre, Apellidos, NIF
-    String nombre;
-    String apellido;
-    String nif;
+    private String nombre;
+    private String apellido;
+    private String nif;
 
     //Contructor por parámetros de Particular
     public Particular(String id, String telf, String email, String nombre, String apellido, String nif)
