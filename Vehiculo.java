@@ -1,4 +1,3 @@
-package GestionVehiculos
 public abstract class Vehiculo
 {
     // instance variables - replace the example below with your own
